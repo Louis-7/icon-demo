@@ -3910,7 +3910,7 @@
 
     var prefixes = config.autoFetchSvg ? Object.keys(PREFIX_TO_STYLE) : Object.keys(styles$3);
     var prefixesDomQuery = [".".concat(LAYERS_TEXT_CLASSNAME, ":not([").concat(DATA_FA_I2SVG, "])")].concat(prefixes.map(function (p) {
-      return ".".concat(p, ":not([").concat(DATA_FA_I2SVG, "])");
+      return ".svg-icon .".concat(p, ":not([").concat(DATA_FA_I2SVG, "])");
     })).join(', ');
 
     if (prefixesDomQuery.length === 0) {
