@@ -1,0 +1,34 @@
+// Overwrite webfonts folder path
+$fa-font-path: "fa/webfonts" !default;
+
+@import 'fa/scss/fontawesome.scss';
+@import 'fa/scss/brands.scss';
+@import 'fa/scss/regular.scss';
+@import 'fa/scss/solid.scss';
+
+.icon-fonts,
+.svg-icon {
+    .size-sm {
+        font-size: 12px;
+    }
+
+    .size-md {
+        font-size: 32px;
+    }
+
+    .size-lg {
+        font-size: 64px;
+    }
+
+    .size-xlg {
+        font-size: 120px;
+    }
+}
+
+.inline-svg {
+    svg {
+        height: 1em;
+        width: 1em;
+        font-size: 200px;
+    }
+}

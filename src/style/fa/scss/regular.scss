@@ -17,7 +17,9 @@
   url('#{$fa-font-path}/fa-regular-400.svg#fontawesome') format('svg');
 }
 
-.far {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 400;
+.icon-fonts {
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+  }
 }

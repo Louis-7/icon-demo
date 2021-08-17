@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:sass": "sass src/style/fa/scss/main.scss src/style/fa/css/all.css"
+    "build:sass": "sass src/style/style.scss src/style/style.css"
   },
   "author": "Louis",
   "license": "ISC",
